@@ -154,7 +154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -238,7 +238,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -303,7 +303,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/804004ea-8484-4e62-97df-ee6d528e2575")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -503,7 +509,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "6206426d-a6da-438c-939b-2575d3400f31")
 		)
@@ -513,7 +519,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN8")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "e93986ea-bf7c-4deb-a14c-2ced1b46dd53")
 		)
@@ -527,343 +533,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Tales:TerminalBlock_Wago_250-204_1x04_P3.5mm_45Degree"
-		(layer "F.Cu")
-		(uuid "0567f314-2a7e-4dab-a841-e291caba385c")
-		(at 164.75 72.25 180)
-		(descr "Terminal Block Wago 250-204 4 pin pitch 3.5mm 45 degree")
-		(tags "250-204 ")
-		(property "Reference" "J2"
-			(at 6.75 -5.75 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "de288d58-37eb-453b-a079-89db9d764539")
-			(effects
-				(font
-					(size 0.8 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "250-204"
-			(at -0.75 8.5 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "e48f519c-856f-4470-aa99-81003fe213ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a4eed93-fd80-4c57-adaf-df362592b5dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec7fa977-dbe0-4fc9-bba8-091b508b04f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58a12379-fe23-403c-9911-3f6230492f27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Technology" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3b8b1ca-63e1-4389-b01a-49973f1cce64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "634b8bae-2aea-4699-9be8-36b8e92cd759")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2765063"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de691c4a-0d9c-490c-b8e2-e41e943c0e49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" "Wago"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b069642-fe66-4878-b921-6708f198f436")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr PN" "250-204"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "626da4ff-daaf-4bcf-bd56-4c60446a1e67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor PN" "C2765063"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72f3dbec-5f04-48a0-a83c-8a31fedbd80e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "relay-24v-8ch-8a-v1.kicad_sch")
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 7.127 7.326999)
-			(end 7.127 -4.927)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d048a995-07b1-4405-9790-8b088cd729cf")
-		)
-		(fp_line
-			(start 7.127 -4.927)
-			(end -8.627 -4.927)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "166b83d5-7a98-4b89-8aca-312d52d37673")
-		)
-		(fp_line
-			(start -8.627 7.326999)
-			(end 7.127 7.326999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8e33335b-1550-48f5-8625-e72e17d289c5")
-		)
-		(fp_line
-			(start -8.627 -4.927)
-			(end -8.627 7.326999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fd58808-a5d1-4b81-aa8e-0028b9b98a15")
-		)
-		(fp_line
-			(start 7.254 7.453999)
-			(end 7.254 -5.054)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "160110dc-a325-4b4d-9e9e-4bda3fb85bef")
-		)
-		(fp_line
-			(start 7.254 -5.054)
-			(end -8.754 -5.054)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d1073fc9-e538-4abc-a15b-e9661f68d178")
-		)
-		(fp_line
-			(start -8.754 7.453999)
-			(end 7.254 7.453999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "258b2dd9-5903-49b3-9f50-9946f3f1af17")
-		)
-		(fp_line
-			(start -8.754 -5.054)
-			(end -8.754 7.453999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "83197001-962d-4a35-a29d-7dbde19f81e4")
-		)
-		(fp_line
-			(start 7 7.199999)
-			(end 7 -4.8)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "36112081-7864-4ca7-8df5-bb9a5cf29854")
-		)
-		(fp_line
-			(start 7 -4.8)
-			(end -8.5 -4.8)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3c0a97b7-d919-4cc5-b457-f0d7c2e961f2")
-		)
-		(fp_line
-			(start -8.5 7.199999)
-			(end 7 7.199999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b0c699e8-7d95-4067-b66e-5e90b6aee274")
-		)
-		(fp_line
-			(start -8.5 -4.8)
-			(end -8.5 7.199999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "37b5459a-61eb-42a2-887d-ba4475746cf9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.75 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c26ac43e-11a2-4a34-9f67-469d68cdad17")
-			(effects
-				(font
-					(size 0.8 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -5.25 -2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN4")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "4e13c87c-37b4-425b-bf18-91c4e85e9469")
-		)
-		(pad "2" thru_hole circle
-			(at -1.75 2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN3")
-			(pinfunction "Pin_2_2")
-			(pintype "passive")
-			(uuid "c1d8297f-eb26-4826-9215-9de826b927f7")
-		)
-		(pad "3" thru_hole circle
-			(at 1.75 -2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN2")
-			(pinfunction "Pin_3_3")
-			(pintype "passive")
-			(uuid "2e5eb1e2-9f77-450a-b50a-32bf3181d2bc")
-		)
-		(pad "4" thru_hole circle
-			(at 5.25 2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN1")
-			(pinfunction "Pin_4_4")
-			(pintype "passive")
-			(uuid "8bba9095-3c3c-4e0b-b7c2-fd0900c42c4a")
-		)
-		(embedded_fonts no)
-		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-204.stp"
-			(offset
-				(xyz 7 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -895,7 +564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -979,7 +648,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1044,7 +713,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c57894e8-b4c2-473a-8da6-d476ff5fb7d4")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1244,7 +919,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "fdae21e3-70e2-4f6c-8321-642720f8de15")
 		)
@@ -1254,7 +929,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN7")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "3213f2f6-c293-4a62-828f-278d438c8803")
 		)
@@ -1268,6 +943,350 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Tales:TerminalBlock_Wago_250-204_1x04_P3.5mm_45Degree"
+		(layer "F.Cu")
+		(uuid "1219a1e8-51c5-43d4-9a7f-49e2bc02fe6c")
+		(at 213 72.25 180)
+		(descr "Terminal Block Wago 250-204 4 pin pitch 3.5mm 45 degree")
+		(tags "250-204 ")
+		(property "Reference" "J3"
+			(at 6.75 -5.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9fb36283-93c5-4e7d-8c91-7fe481f7257d")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "250-204"
+			(at -0.75 8.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2a110f11-ec53-4faf-bfc4-ac447321f107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803e7cf9-3121-48f6-8950-b4505f35e42c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bb2b67c-04fd-4da3-8a91-08bb41c43b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba0ff12e-3480-42ca-a76f-4ddf70f0b82f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Technology" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11a58574-e5d5-42c7-817d-3d027e1ebf13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ed8b99c-3051-4e62-a3ce-e2c1d74bca77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2765063"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bac3dd8-f08c-4906-a410-4920b9d8912d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Wago"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5749ab0f-8038-47e1-8cd5-1ccb2ab86f61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr PN" "250-204"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53dce94e-8754-423e-ac64-9809b02c4902")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN" "C2765063"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a9c0ba-04fc-47b3-bb70-e1918c17a608")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/731665fd-93e1-4360-b17c-aa5f89170e9c")
+		(sheetname "/")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 7.127 7.326999)
+			(end 7.127 -4.927)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c409177d-81cc-4068-93cc-2982dbab7c4b")
+		)
+		(fp_line
+			(start 7.127 -4.927)
+			(end -8.627 -4.927)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3ebc5f2-51e0-4071-93e2-b72e03726d1f")
+		)
+		(fp_line
+			(start -8.627 7.326999)
+			(end 7.127 7.326999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b293095-38c8-42d1-8399-3e5f10e77bd8")
+		)
+		(fp_line
+			(start -8.627 -4.927)
+			(end -8.627 7.326999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "74ff78c7-9075-4694-8ead-b058045cdcaa")
+		)
+		(fp_line
+			(start 7.254 7.453999)
+			(end 7.254 -5.054)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "443373b2-7b19-427e-85ab-357f1b570e5e")
+		)
+		(fp_line
+			(start 7.254 -5.054)
+			(end -8.754 -5.054)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b838189b-0843-4f8b-a49c-c87d15f9c8dc")
+		)
+		(fp_line
+			(start -8.754 7.453999)
+			(end 7.254 7.453999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24645217-ea04-411c-bb5a-0197d1ee244b")
+		)
+		(fp_line
+			(start -8.754 -5.054)
+			(end -8.754 7.453999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d508b9d1-545e-4442-b72c-6af9ba2142d7")
+		)
+		(fp_line
+			(start 7 7.199999)
+			(end 7 -4.8)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e10fb66e-4f55-457d-9c2f-a580b50daefe")
+		)
+		(fp_line
+			(start 7 -4.8)
+			(end -8.5 -4.8)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d3f34ce-786b-4ddf-bc46-49ec1fe5bd49")
+		)
+		(fp_line
+			(start -8.5 7.199999)
+			(end 7 7.199999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8d6e7f8-ec7f-4124-adcc-d9cdbd01e85c")
+		)
+		(fp_line
+			(start -8.5 -4.8)
+			(end -8.5 7.199999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3e0da7e-d6f2-46a0-9d27-8735ec3c2ef3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.75 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7379f806-41ac-44c4-bd32-ed6b9aacdd79")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5.25 -2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN8")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "651b5a56-1c10-4b92-bb56-11d84750b6c4")
+		)
+		(pad "2" thru_hole circle
+			(at -1.75 2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN7")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
+			(uuid "a5a42ad0-6ead-4b0f-9426-7c294c95a166")
+		)
+		(pad "3" thru_hole circle
+			(at 1.75 -2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN6")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "37beb1c1-dd65-45d4-bf30-3d2280b2cde5")
+		)
+		(pad "4" thru_hole circle
+			(at 5.25 2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN5")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "22270dc7-3b2e-4d8b-9f1e-936e84b5f521")
+		)
+		(embedded_fonts no)
+		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-204.stp"
+			(offset
+				(xyz 7 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1299,7 +1318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1383,7 +1402,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 302.65 143 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1422,7 +1441,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d466e76-8a1d-46c9-9f2b-6f764ce902f7")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1584,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1634,7 +1659,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1728,7 +1753,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0044d353-17da-4e14-95f3-321c9fddae1e")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1868,7 +1899,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN7")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "9f544c8f-ab57-4453-9c29-b5190f29b4aa")
 		)
@@ -1878,7 +1909,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED7")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "152c208a-063b-425e-9944-ee02cb46cd27")
 		)
@@ -1923,7 +1954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2007,7 +2038,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2072,7 +2103,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ec8f369c-741f-46c6-a7bf-54b3ed7aa8f3")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2272,7 +2309,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "5e89d351-7441-490c-b318-fb156853d472")
 		)
@@ -2282,7 +2319,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN2")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c51fab05-908e-4b56-ba77-7fbf231961ad")
 		)
@@ -2327,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2411,7 +2448,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2463,7 +2500,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/096cfbfd-8ba4-4f32-a916-3dacf715ec01")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2603,7 +2646,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN4")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "49166235-0326-49d1-899f-39a290f95c52")
 		)
@@ -2613,7 +2656,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED4")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "8acf65db-495f-46a6-9ddc-6d898b30bc21")
 		)
@@ -2627,6 +2670,350 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Tales:TerminalBlock_Wago_250-204_1x04_P3.5mm_45Degree"
+		(layer "F.Cu")
+		(uuid "38f408e3-9135-43c7-a663-3c82eecf2382")
+		(at 164.75 72.25 180)
+		(descr "Terminal Block Wago 250-204 4 pin pitch 3.5mm 45 degree")
+		(tags "250-204 ")
+		(property "Reference" "J2"
+			(at 6.75 -5.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "84db311b-bd8a-489e-b059-af095c04d9c9")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "250-204"
+			(at -0.75 8.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ce7ed6cc-fbd4-4e2d-af51-c5f1c44b31b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4c6361a-e9d6-452a-97ef-e33d7a198a1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6088292-4891-403e-a00a-82da62462e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1944f76-5d3c-4b3e-bc78-251c50330046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Technology" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccada99b-e888-4d7a-9bd9-94ac5bfa14f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cb385fb-7033-4af2-8822-2e4d1269fc93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2765063"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a099d37-9357-4708-9daf-bbcb70d19b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Wago"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86ad9591-2085-490c-8b50-4fbf975cb318")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr PN" "250-204"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d86352e-eb7a-4f6b-8f5a-94d15f59626c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN" "C2765063"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a148e37e-9d32-4163-98b5-9f781d52ee95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/4db4af19-ef33-4483-b148-19bf12d06354")
+		(sheetname "/")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 7.127 7.326999)
+			(end 7.127 -4.927)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61350961-2dcb-4aad-9b14-ef59dfe90547")
+		)
+		(fp_line
+			(start 7.127 -4.927)
+			(end -8.627 -4.927)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f46e5453-98e5-4679-88a3-d181813f7ed9")
+		)
+		(fp_line
+			(start -8.627 7.326999)
+			(end 7.127 7.326999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1297ee38-77ed-43bf-be9a-31bcd943edb0")
+		)
+		(fp_line
+			(start -8.627 -4.927)
+			(end -8.627 7.326999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "51f8fc06-21e9-4845-8b7e-06ac0296f971")
+		)
+		(fp_line
+			(start 7.254 7.453999)
+			(end 7.254 -5.054)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b14266c5-3167-4d3f-8cec-96372b57746f")
+		)
+		(fp_line
+			(start 7.254 -5.054)
+			(end -8.754 -5.054)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "831bd453-16d3-49af-9ae2-1f3cfba31ed6")
+		)
+		(fp_line
+			(start -8.754 7.453999)
+			(end 7.254 7.453999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c424c74-fde5-4be8-a5f0-bbf0a4cbc2b4")
+		)
+		(fp_line
+			(start -8.754 -5.054)
+			(end -8.754 7.453999)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "172f2870-6ed7-4936-a33e-8676a8de733e")
+		)
+		(fp_line
+			(start 7 7.199999)
+			(end 7 -4.8)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c635801a-25d2-4e4f-b5b3-7de1e38d13a8")
+		)
+		(fp_line
+			(start 7 -4.8)
+			(end -8.5 -4.8)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0390eb7b-1930-426a-b05f-5985c0a12899")
+		)
+		(fp_line
+			(start -8.5 7.199999)
+			(end 7 7.199999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "091e76b4-2332-4eea-b855-591e7454e999")
+		)
+		(fp_line
+			(start -8.5 -4.8)
+			(end -8.5 7.199999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ebff907-b0ee-4099-8eef-3285ef2f068e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.75 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "91ca273c-e914-408d-9185-c37a96511ba1")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5.25 -2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN4")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "8b39f270-c16b-4f34-9d25-d508ae61ed49")
+		)
+		(pad "2" thru_hole circle
+			(at -1.75 2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
+			(uuid "bce80e99-ac63-4c45-93ce-22ef27439493")
+		)
+		(pad "3" thru_hole circle
+			(at 1.75 -2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN2")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "082eef31-2415-49d7-bf4c-4df40dce81b9")
+		)
+		(pad "4" thru_hole circle
+			(at 5.25 2.5 180)
+			(size 3 3)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/IN1")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "0d446400-637c-4229-8f6a-b71b67bf7e92")
+		)
+		(embedded_fonts no)
+		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-204.stp"
+			(offset
+				(xyz 7 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -2658,7 +3045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2742,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 302.65 146 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2781,7 +3168,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/87a6671e-b989-4c2a-bb7c-18183d668963")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2943,7 +3336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3003,7 +3396,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 82 247 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3015,7 +3408,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 82 247 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3067,7 +3460,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/6eab2f5c-d9b7-4121-b414-cabe5e3ada74")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3441,7 +3840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3525,7 +3924,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3577,7 +3976,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/900c09fc-3ae9-4169-a682-f11fb2d04c24")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3717,7 +4122,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN1")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "9b47f9e5-c856-4ce9-acf7-393c3698bc3c")
 		)
@@ -3727,7 +4132,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED1")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2104562f-30b7-4190-87f5-bc19ce1140e0")
 		)
@@ -3772,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3856,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 302.65 140 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3895,7 +4300,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/b5669ff1-06e1-41a3-8779-b1b5a4758391")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4057,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4141,7 +4552,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4206,7 +4617,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1e8f2b45-73ea-4933-a2fc-b6d89cdb8266")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4406,7 +4823,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "8c3d536c-da0a-4f3d-be89-31ff7aba927a")
 		)
@@ -4416,7 +4833,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN1")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "171fa334-bf84-4a83-bc46-3b0172f8e53b")
 		)
@@ -4461,7 +4878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4649,7 +5066,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/ee6ad3c3-498d-45bb-baba-703468bdb88f")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4833,7 +5256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4893,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 106 271 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4905,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 106 271 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4957,7 +5380,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/edb830c4-e558-4c39-8619-79f1e5f0448b")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5331,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5407,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5420,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5462,7 +5891,13 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/35d66599-a522-4730-9c8d-a495236a084b")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6191,7 +6626,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT5LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "097d5c97-55dc-491b-9e6b-661976924bc8")
 		)
@@ -6202,7 +6637,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT5LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "371e6e9f-cacb-4bdf-bd0c-c6060ff63e2e")
 		)
@@ -6213,7 +6648,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT5LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "fe89f34f-1911-4205-8b37-b60b11590392")
 		)
@@ -6224,7 +6659,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT5LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "e5821e9a-d461-42b9-b730-388d2a90ddcc")
 		)
@@ -6235,7 +6670,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT6LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "9d92cf43-0543-4dde-8491-ef8487652245")
 		)
@@ -6246,7 +6681,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT6LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "505a4ba9-0cfb-46d0-8b1b-6cdfb131ac80")
 		)
@@ -6257,7 +6692,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT6LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "4d02a305-6aad-4ce7-9c6c-c4f3fea2f506")
 		)
@@ -6268,7 +6703,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT6LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "e8b47d2d-f897-4f94-9d73-b1be067366fd")
 		)
@@ -6313,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6373,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 118 283 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6385,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 118 283 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6437,7 +6872,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/0bd9985d-4d5d-44f7-9bfb-1e8f0770c3e5")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6811,7 +7252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6861,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6955,7 +7396,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/44906a01-bbde-46d4-a585-3454f5d1852f")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7095,7 +7542,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN5")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "fd0ac8f9-4e47-44d4-a190-b34e01a9003f")
 		)
@@ -7105,7 +7552,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED5")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "a4b86e90-2427-4436-bc36-f3a1a66a85a6")
 		)
@@ -7150,7 +7597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7234,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7299,7 +7746,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/df3885b0-cf9c-4201-b070-78b7ab743886")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7499,7 +7952,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "c5c50a4b-f1f8-4e42-b7de-979c929980af")
 		)
@@ -7509,7 +7962,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN3")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "884b1b7b-984b-4c56-a1c4-3d23c335ac7d")
 		)
@@ -7554,7 +8007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7742,7 +8195,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/cccdf6b2-9016-4abc-b8c4-0c466df0fdc4")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7926,7 +8385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7986,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 130 295 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7998,7 +8457,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 130 295 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8050,7 +8509,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/c97ef979-d5a0-4fed-aeb4-e5f42c5ef043")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8424,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8484,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 70 235 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8496,7 +8961,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 70 235 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8548,7 +9013,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/0e2c0149-206c-4cf9-8acd-b2c8289d8bcc")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8922,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9110,7 +9581,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/01929905-41fc-4d5a-b89f-4b8c19d722d0")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9294,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9357,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9425,7 +9902,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d158ec9-3b67-418a-87a7-cd1f57e3b2ca")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9587,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9671,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9723,7 +10206,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e736e9ac-b2d8-44ca-901e-068131c00224")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9863,7 +10352,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN2")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "b10d7b0e-a8eb-4e3c-8478-5cfc40b465f9")
 		)
@@ -9873,7 +10362,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED2")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "36d0c29d-af11-495f-b955-9b2846e8a40b")
 		)
@@ -9918,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10106,7 +10595,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/84f3240f-ec15-4871-aac8-638b105300b3")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10290,7 +10785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10478,7 +10973,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/90c13f0b-dff1-4ac6-868c-7a318310de40")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10662,7 +11163,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10850,7 +11351,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/71a24c63-329b-4fb3-80dd-f0c90a0d7c73")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11034,7 +11541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11118,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11183,7 +11690,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/fc42cc07-d469-40a9-976f-d8be63145c4d")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11383,7 +11896,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "67923cb4-f6f5-4a74-bae3-41b662e58375")
 		)
@@ -11393,7 +11906,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN5")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "4e176c14-6f81-4817-aee5-37deb2c53a33")
 		)
@@ -11438,7 +11951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11498,7 +12011,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 58 223 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11510,7 +12023,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 58 223 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11562,7 +12075,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/facdf818-f7cd-43ad-bc93-ff9b4bbbd1b9")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11936,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12020,7 +12539,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12085,7 +12604,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2a8a8c91-31f7-4d3b-ac49-4bd18f54a83d")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12285,7 +12810,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "be5a2d6c-b9b4-4e52-a688-65d79d44b5a0")
 		)
@@ -12295,7 +12820,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN6")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f7c429ba-83fe-441d-8087-43bbda0a6fa4")
 		)
@@ -12340,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12416,7 +12941,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12429,7 +12954,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12471,7 +12996,13 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/721aff16-5bee-4fb4-8297-9eb9dec55cd5")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13200,7 +13731,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT7LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "ae57489f-c04c-46b3-b920-4f65ac82a19b")
 		)
@@ -13211,7 +13742,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT7LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "2cb31b1f-c29e-415f-92f8-7e630805e6fe")
 		)
@@ -13222,7 +13753,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT7LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "6aa3f610-1fff-4ca4-8034-96ba775b70d5")
 		)
@@ -13233,7 +13764,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT7LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "f9c2b7f3-f1f8-473c-9489-561f1ce105ca")
 		)
@@ -13244,7 +13775,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT8LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "eb1edaa1-a227-4469-93fe-f8454510b89e")
 		)
@@ -13255,7 +13786,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT8LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "4cf82b91-b19c-4d60-81e9-4e61a66ef86b")
 		)
@@ -13266,7 +13797,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT8LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "3df0dc05-4e2c-497c-8646-5730ad9701e8")
 		)
@@ -13277,7 +13808,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT8LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "6c536c3b-e3e9-4e3a-b84f-d6a6f4b98a93")
 		)
@@ -13322,7 +13853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13406,7 +13937,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13471,7 +14002,13 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c823b9eb-9578-41c5-b414-eb70ef25b653")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13671,7 +14208,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+24V")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "8da55420-a7dc-40ba-990d-f9ca5193b145")
 		)
@@ -13681,7 +14218,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN4")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "1e5be7ba-4692-4c01-aed7-9a833e1ade9d")
 		)
@@ -13726,7 +14263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13789,7 +14326,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13857,7 +14394,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/2b0bf72b-b076-4b31-a84c-daeb2a3c627d")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14019,7 +14562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14079,7 +14622,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 46 211 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14091,7 +14634,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 46 211 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14143,7 +14686,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/7d769293-2f2d-474b-b23e-99d9d40ede96")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14517,7 +15066,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14593,7 +15142,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14606,7 +15155,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14648,7 +15197,13 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/040365c9-cb92-4bb5-ab33-1d990d277d6a")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15377,7 +15932,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT1LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "b49fa3b4-3ff1-4347-9e2e-14dfa152a77d")
 		)
@@ -15388,7 +15943,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT1LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "bfdcd2f0-328e-44ce-82ca-200245cd9592")
 		)
@@ -15399,7 +15954,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT1LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "3d04b443-a69e-4573-8067-f57e29a2e038")
 		)
@@ -15410,7 +15965,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT1LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "fd475ffb-ec46-40fd-9e89-4530e88e62f8")
 		)
@@ -15421,7 +15976,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT2LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "d46729c7-8202-459c-951d-65f67d10cb81")
 		)
@@ -15432,7 +15987,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT2LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "3f3cb992-3e91-4522-bad0-6bb79212bec3")
 		)
@@ -15443,7 +15998,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT2LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "da7a4903-fce3-4482-888b-1db5b9164a46")
 		)
@@ -15454,7 +16009,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT2LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "a0060286-e3b6-421d-9514-495d3fddc01c")
 		)
@@ -15471,343 +16026,6 @@
 			)
 		)
 	)
-	(footprint "Tales:TerminalBlock_Wago_250-204_1x04_P3.5mm_45Degree"
-		(layer "F.Cu")
-		(uuid "cca80f92-5b5b-4f6b-a062-0533d9240ff2")
-		(at 212.990536 72.238109 180)
-		(descr "Terminal Block Wago 250-204 4 pin pitch 3.5mm 45 degree")
-		(tags "250-204 ")
-		(property "Reference" "J3"
-			(at 6.740536 -5.761891 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "e4040398-c2e7-4e05-bb41-7b0c35ff8115")
-			(effects
-				(font
-					(size 0.8 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "250-204"
-			(at -0.75 8.5 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "185f638a-4bb3-42b4-bd43-2c3f7e54f12d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a60e5173-4518-4d17-ac95-19802e73e2f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "447b7e9a-03bb-4243-aaac-813da59502a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB BOM" "1"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a56214c2-2215-473d-b512-fb900f31e8d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Technology" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1610b10-82b0-4fd8-afc0-dbd13afc48ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor" "JLCPCB"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2a83157-7749-4f13-a18a-a94c691ac5a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2765063"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25d6f226-c7db-4133-b1a1-f7dc9a84b198")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr" "Wago"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db207613-2cda-4047-8d9d-9cbae186ba6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mfr PN" "250-204"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9883f2b7-3e32-4883-8501-88ebdad150ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor PN" "C2765063"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dfe593d-7481-4986-9cc9-4cc0ba78406a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "relay-24v-8ch-8a-v1.kicad_sch")
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 7.127 7.326999)
-			(end 7.127 -4.927)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b8c3f3db-3648-4deb-9ba3-7a26e304c47c")
-		)
-		(fp_line
-			(start 7.127 -4.927)
-			(end -8.627 -4.927)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "032d845a-63ea-4a78-974a-93ec78c6121f")
-		)
-		(fp_line
-			(start -8.627 7.326999)
-			(end 7.127 7.326999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "35a03f35-0084-4d48-9924-e1b55e7679d8")
-		)
-		(fp_line
-			(start -8.627 -4.927)
-			(end -8.627 7.326999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9e83d9b0-d4d6-43de-8cc9-537859c81bac")
-		)
-		(fp_line
-			(start 7.254 7.453999)
-			(end 7.254 -5.054)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ffa20f27-2e0c-4bab-907e-26b3a80e49f8")
-		)
-		(fp_line
-			(start 7.254 -5.054)
-			(end -8.754 -5.054)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "215106e9-47af-4574-b956-3494f90d78b3")
-		)
-		(fp_line
-			(start -8.754 7.453999)
-			(end 7.254 7.453999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "77ed6a67-11b7-4c6b-8d34-0a79c363fa62")
-		)
-		(fp_line
-			(start -8.754 -5.054)
-			(end -8.754 7.453999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e26543a0-9afc-44d4-b480-421c6ce1680f")
-		)
-		(fp_line
-			(start 7 7.199999)
-			(end 7 -4.8)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86c04aba-4488-49da-9ce4-c813ab9159ea")
-		)
-		(fp_line
-			(start 7 -4.8)
-			(end -8.5 -4.8)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "295d3aac-c309-48a8-af3b-b3ae6b6bfd83")
-		)
-		(fp_line
-			(start -8.5 7.199999)
-			(end 7 7.199999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5ffa2659-ef0b-4c7a-b4b3-13e95e3c02c9")
-		)
-		(fp_line
-			(start -8.5 -4.8)
-			(end -8.5 7.199999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "be44b230-b830-4bf4-9c3e-7ada378624af")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.75 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c877f6bb-ba07-4767-87b7-d1c88a3c7816")
-			(effects
-				(font
-					(size 0.8 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -5.25 -2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN8")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "88fad291-48c0-4df1-ae4f-f4b42c0adf0c")
-		)
-		(pad "2" thru_hole circle
-			(at -1.75 2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN7")
-			(pinfunction "Pin_2_2")
-			(pintype "passive")
-			(uuid "794e6f02-dd40-47ee-8b5a-f58f96d720de")
-		)
-		(pad "3" thru_hole circle
-			(at 1.75 -2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN6")
-			(pinfunction "Pin_3_3")
-			(pintype "passive")
-			(uuid "134998e3-3dce-47be-9e6a-370d7b09146f")
-		)
-		(pad "4" thru_hole circle
-			(at 5.25 2.5 180)
-			(size 3 3)
-			(drill 1.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/IN5")
-			(pinfunction "Pin_4_4")
-			(pintype "passive")
-			(uuid "91924bd1-f7a0-4586-97ed-b787004ae46b")
-		)
-		(embedded_fonts no)
-		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-204.stp"
-			(offset
-				(xyz 7 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-	)
 	(footprint "Tales:Eumesmo_small_silk"
 		(layer "F.Cu")
 		(uuid "cf975908-0530-4a50-9110-452c2dbe113f")
@@ -15820,8 +16038,8 @@
 			(uuid "3d6cce08-28ab-49b3-a7ad-a83edd546621")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 0.8 0.6)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16202,7 +16420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16265,7 +16483,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16333,7 +16551,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/a749ff3e-522b-4821-a63b-e767c571e0d4")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16495,7 +16719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16558,7 +16782,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16626,7 +16850,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/64872628-dc50-4b5b-9178-18938f06fc5b")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16788,7 +17018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16976,7 +17206,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/f7ee5772-4b5e-401f-bae5-2aef817eb7fc")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17160,7 +17396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17244,7 +17480,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 302.65 137 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17283,7 +17519,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/4c2c7a0f-a9e5-4eb3-8532-77ff4967f636")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17445,7 +17687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17495,7 +17737,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17589,7 +17831,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/707e0fd4-1dfa-403e-b136-51c94bd51d83")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17729,7 +17977,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN8")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "a49bd9dc-fc80-478f-b59e-2fb10d877634")
 		)
@@ -17739,7 +17987,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED8")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "47926aee-83e7-4259-b600-399a29073c15")
 		)
@@ -17784,7 +18032,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17860,7 +18108,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17873,7 +18121,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17915,7 +18163,13 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/04f3eb55-c78f-4dac-90cc-bf3fc1f22a07")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18644,7 +18898,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT3LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "9cc276cb-c4eb-4042-af59-56b5fffe4d46")
 		)
@@ -18655,7 +18909,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT3LN")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "92103366-2e90-44c7-b6ed-93dec8567d7e")
 		)
@@ -18666,7 +18920,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT3LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "801a41b2-54f8-4b2d-a45e-f8532c1a6ed7")
 		)
@@ -18677,7 +18931,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT3LD")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "168096b4-6257-4de7-bf31-273ad5528a9f")
 		)
@@ -18688,7 +18942,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT4LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "e0787cde-3754-4ac5-91c2-448ee9f52ef7")
 		)
@@ -18699,7 +18953,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT4LN")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "2bd5d597-335c-4b4b-aaa9-61f6782b81e3")
 		)
@@ -18710,7 +18964,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT4LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "54d8b281-6b38-4a27-91b9-862ad0452be5")
 		)
@@ -18721,7 +18975,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/OUT4LD")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "acfa1401-aff1-498d-90c1-500a1854fb3b")
 		)
@@ -18766,7 +19020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -18826,7 +19080,7 @@
 				)
 			)
 		)
-		(property "Package" "~"
+		(property "Package" ""
 			(at 94 259 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18838,7 +19092,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 94 259 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18890,7 +19144,13 @@
 		(property ki_fp_filters "Relay*SPST*Omron*G5PZ*")
 		(path "/7c3ffb18-a713-4d22-a801-4a8b5b0c8f1b")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19264,7 +19524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19348,7 +19608,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19400,7 +19660,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/66a49d3f-879d-4986-89ff-0b2699a1f551")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19540,7 +19806,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN3")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "ac329592-1b61-4e15-9961-640ed0dc13bd")
 		)
@@ -19550,7 +19816,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED3")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "1a861b52-2065-4794-86d3-3c26b8edf4fe")
 		)
@@ -19569,7 +19835,7 @@
 	)
 	(footprint "Tales:TerminalBlock_Wago_250-202_1x02_P3.5mm_45Degree"
 		(layer "F.Cu")
-		(uuid "fe4cdfa3-2612-480b-842f-f97282bc3c75")
+		(uuid "fa48ba16-7107-4e98-9ce6-280c88049345")
 		(at 200 72.25 180)
 		(descr "Terminal Block Wago 250-202 2 pin pitch 3.5mm 45 degree")
 		(tags "250-202 ")
@@ -19577,7 +19843,7 @@
 			(at 3.25 -5.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8f5289cb-a946-4d7f-b211-cf77946b8f2c")
+			(uuid "7ca6bfa8-4aa8-4405-8c72-2949be0988bd")
 			(effects
 				(font
 					(size 0.8 0.6)
@@ -19589,7 +19855,7 @@
 			(at -0.226 8.676 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "49dc5ea5-e5e9-46c0-8584-388ad158f2f4")
+			(uuid "d0cf76b9-b63f-40a3-9802-03c63d756fdf")
 			(effects
 				(font
 					(size 1 1)
@@ -19601,7 +19867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce3e1458-5585-4e8b-a5b9-989a8128677d")
+			(uuid "b37df225-9c80-4a00-80af-b2eb8a1e4aba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19613,7 +19879,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30681569-fb70-49a7-a175-be5970999272")
+			(uuid "a6bd91fb-6c28-49b5-914b-dde8ba0dcccf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +19892,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ebd5f5c-4681-4e78-8c4a-b558a0512855")
+			(uuid "264e3caa-69a0-44a5-9aef-636c6753f570")
 			(effects
 				(font
 					(size 1 1)
@@ -19639,7 +19905,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b8443b6-5256-4dc4-80cf-b0c91428cf2e")
+			(uuid "4abebcbc-ba2f-4235-9155-fa191417b269")
 			(effects
 				(font
 					(size 1 1)
@@ -19652,7 +19918,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76aae0db-dbfb-4dcb-bbc5-a218345a906c")
+			(uuid "dd2e400b-2cf7-486c-badf-78436fd016b2")
 			(effects
 				(font
 					(size 1 1)
@@ -19665,7 +19931,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "651caae2-06cf-45aa-94cc-056eea39235e")
+			(uuid "5c040e7d-4b1c-403b-9eca-663d8e0be907")
 			(effects
 				(font
 					(size 1 1)
@@ -19678,7 +19944,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95ae6963-4aed-487d-a5da-5eb73248f0ae")
+			(uuid "d7c02db5-f788-4926-967c-e79807658f80")
 			(effects
 				(font
 					(size 1 1)
@@ -19691,7 +19957,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51ec597a-378e-4a28-882d-b6c8dbaacf84")
+			(uuid "b43be6b5-c209-4509-83fd-5de2985c7568")
 			(effects
 				(font
 					(size 1 1)
@@ -19704,7 +19970,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8a4b4ee-87cd-45f5-bfff-7b2b8bf4f6be")
+			(uuid "41630f11-61d7-4ffc-adb5-5c0a3a1819e4")
 			(effects
 				(font
 					(size 1 1)
@@ -19713,8 +19979,15 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/98e8c165-cac8-4814-a755-c46839e000a3")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-8a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19725,7 +19998,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "81506557-b5de-44b7-9db4-fa3a9f1ae3e7")
+			(uuid "c70fe696-e072-4107-9318-4757c8605b24")
 		)
 		(fp_line
 			(start 3.627064 -4.927)
@@ -19735,7 +20008,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "deaff94a-9ffc-4d52-b7d0-f63a28151121")
+			(uuid "a831338e-c71a-460d-8f91-19b6fdea7b96")
 		)
 		(fp_line
 			(start -5.126934 7.326999)
@@ -19745,7 +20018,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b69f08aa-f390-472d-8226-a7b9152a2be3")
+			(uuid "febc670b-4713-4c2e-8569-32467a2bc451")
 		)
 		(fp_line
 			(start -5.126934 -4.927)
@@ -19755,7 +20028,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2a918efa-0b1e-4dc1-8c4f-8a0c1a158a4e")
+			(uuid "5e9252ce-eb63-4e0c-bc70-7b978c3b010a")
 		)
 		(fp_line
 			(start 3.754064 7.453999)
@@ -19765,7 +20038,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "19f7106f-8e4f-4f8e-80d4-260bd1cb127f")
+			(uuid "21a3331d-40eb-4cf5-8f4e-816e7eab28e3")
 		)
 		(fp_line
 			(start 3.754064 -5.054)
@@ -19775,7 +20048,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8d58397f-7bdf-4efc-83c4-a848f9ff7380")
+			(uuid "c9240a5e-bdf7-4c16-a2e8-cfb50b2b47c5")
 		)
 		(fp_line
 			(start -5.253934 7.453999)
@@ -19785,7 +20058,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ee774e9c-203b-4162-aa66-680a7252c893")
+			(uuid "a307d8a9-c405-4ead-81b6-4f46f78516b7")
 		)
 		(fp_line
 			(start -5.253934 -5.054)
@@ -19795,7 +20068,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "67bec0b9-673d-4780-b6ee-dab3540b312b")
+			(uuid "7cbf1642-e317-4371-99aa-37871abbc29f")
 		)
 		(fp_line
 			(start 3.500064 7.199999)
@@ -19805,7 +20078,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5d410460-1cd2-4297-9e5f-0269797caa77")
+			(uuid "2c30b84b-5b4c-4be1-900e-8221797f6d53")
 		)
 		(fp_line
 			(start 3.500064 -4.8)
@@ -19815,7 +20088,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "758f5cb7-fa31-4025-9b5f-f1a40d62ba59")
+			(uuid "571aad4f-40ea-4e8a-84f3-17c686d035d3")
 		)
 		(fp_line
 			(start -4.999934 7.199999)
@@ -19825,7 +20098,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "28b4cf96-e3aa-474e-a889-c6e8aa58772a")
+			(uuid "b9588881-c480-4175-b1b1-cf1c722130fe")
 		)
 		(fp_line
 			(start -4.999934 -4.8)
@@ -19835,13 +20108,13 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "788e5cf4-e4a4-474a-81fe-5366bd0b46c8")
+			(uuid "de7b30d9-4402-4066-b7ff-a555d7fb73d6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.749935 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ba067bbc-d674-4618-a315-eaa284b73a31")
+			(uuid "b44bc276-c2f1-41a3-8622-0a1213ab1f62")
 			(effects
 				(font
 					(size 0.8 0.6)
@@ -19858,7 +20131,7 @@
 			(net "+24V")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
-			(uuid "dea222ed-c088-42f3-ae43-6c01e506b27c")
+			(uuid "01b73fa6-17b5-4248-aad8-d8e8946d3107")
 		)
 		(pad "2" thru_hole circle
 			(at 1.75 2.5 180)
@@ -19869,7 +20142,7 @@
 			(net "+24V")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
-			(uuid "3a35743f-e4f2-41fc-b7d4-f5ed9d2fc466")
+			(uuid "27d34f80-60b8-4158-acd9-706482e3e88d")
 		)
 		(embedded_fonts no)
 		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-202.stp"
@@ -19912,7 +20185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19962,7 +20235,7 @@
 				)
 			)
 		)
-		(property "Technology" "~"
+		(property "Technology" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20056,7 +20329,13 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c311f5df-7fee-4f67-87c0-bf8ce66891dc")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20196,7 +20475,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/IN6")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "1fd73c30-5e4b-4d0e-8c18-f4879ef71314")
 		)
@@ -20206,7 +20485,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/LED6")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2c4f7e9c-3799-4a12-bab5-17458c1f8149")
 		)
@@ -20251,7 +20530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20439,7 +20718,13 @@
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/c41d921b-e878-40f1-bf6f-26fe2c96f2b2")
 		(sheetname "/")
-		(sheetfile "relay-24v-8ch-12a-v1.kicad_sch")
+		(sheetfile "eumesmo-rl-8ch12a-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20795,17 +21080,6 @@
 		(layer "F.SilkS")
 		(uuid "a52c8e55-6374-434b-b042-7cb5991f30be")
 	)
-	(gr_rect
-		(start 151 74.625)
-		(end 156.5 77.375)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "38f447f4-29b5-4fe3-b20b-93a2cc9b6f15")
-	)
 	(gr_line
 		(start 155.48 124.5)
 		(end 155.48 126.75)
@@ -20956,6 +21230,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0e9a42e5-529d-4c32-8f25-8523707b0fd1")
+	)
+	(gr_rect
+		(start 178.75 70)
+		(end 186.25 71.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "38f447f4-29b5-4fe3-b20b-93a2cc9b6f15")
 	)
 	(gr_line
 		(start 179.5 72)
@@ -21200,8 +21485,8 @@
 		(layer "Edge.Cuts")
 		(uuid "47553c95-d51a-4582-9dca-cb292554b05b")
 	)
-	(gr_text "V1.1\n2026-06-12"
-		(at 153.75 75.875 0)
+	(gr_text "V1.1 2026-06-17"
+		(at 182.5 70.75 0)
 		(layer "F.SilkS")
 		(uuid "09bec862-7e88-4d5e-941e-509377b73630")
 		(effects
