@@ -5736,7 +5736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 171.45 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 175.006 110.744 90)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 173.99 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 173.99 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5824,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 173.99 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5835,7 +5835,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 171.45 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5857,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 173.99 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6358,7 +6358,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 171.45 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6369,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 175.006 148.844 90)
 			(hide yes)
 			(show_name no)
@@ -6402,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6424,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6446,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6457,7 +6457,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 171.45 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 173.99 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6960,7 +6960,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 73.66 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +6971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 77.216 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -7004,7 +7004,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 76.2 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7026,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 76.2 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 76.2 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7059,7 +7059,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 73.66 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7081,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 76.2 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7369,7 +7369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 73.66 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7380,7 +7380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 77.216 108.204 90)
 			(hide yes)
 			(show_name no)
@@ -7413,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7457,7 +7457,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7468,7 +7468,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 73.66 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7490,7 +7490,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7796,7 +7796,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 73.66 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 77.216 70.104 90)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +7840,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7862,7 +7862,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 73.66 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7917,7 +7917,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9730,7 +9730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 171.45 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,7 +9741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 175.006 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -9774,7 +9774,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9796,7 +9796,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9818,7 +9818,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 171.45 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +9851,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10461,7 +10461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 73.66 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +10472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 77.216 146.304 90)
 			(hide yes)
 			(show_name no)
@@ -10505,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10527,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10549,7 +10549,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10560,7 +10560,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 73.66 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10630,7 +10630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/100mW"
+		(property "Value" "10k/125mW"
 			(at 171.45 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10641,7 +10641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Tales:R_0603_1608Metric"
+		(property "Footprint" "Tales:R_0805_2012Metric"
 			(at 175.006 34.544 90)
 			(hide yes)
 			(show_name no)
@@ -10674,7 +10674,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "Uniroyal"
 			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10696,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0603WAF1002T5E"
+		(property "Mfr PN" "0805W8F1002T5E"
 			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10718,7 +10718,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C25804"
+		(property "Vendor PN" "C17414"
 			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10729,7 +10729,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C17414"
 			(at 171.45 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
+		(property "Package" "0805/2012"
 			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
