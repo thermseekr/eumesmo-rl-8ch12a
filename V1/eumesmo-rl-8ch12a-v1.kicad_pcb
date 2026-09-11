@@ -1616,7 +1616,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c523901d-5034-4650-908c-6e3667990fda")
@@ -1651,7 +1651,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1664,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1703,7 +1703,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1716,7 +1716,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2372,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e1261a4b-b8f9-45c8-9a1b-9e31efbf83f9")
@@ -2419,7 +2419,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2431,7 +2431,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2443,7 +2443,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2491,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3866,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f09f3ee7-3252-47bd-80f2-87a17557481b")
@@ -3913,7 +3913,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3925,7 +3925,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3937,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3985,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f5c5a3e3-3809-4e1b-83ca-f9051d0e9c08")
@@ -7331,7 +7331,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7344,7 +7344,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7383,7 +7383,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7396,7 +7396,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10124,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "aea4bf0f-ffbf-4cf5-8982-f06fab6ce991")
@@ -10171,7 +10171,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10183,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10195,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10243,7 +10243,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17786,7 +17786,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e958c5a9-fede-402d-9cda-6f625aad6dfa")
@@ -17821,7 +17821,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17834,7 +17834,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17873,7 +17873,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17886,7 +17886,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19624,7 +19624,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ababe71c-f428-4c8d-aba6-5e73b3ac6e01")
@@ -19671,7 +19671,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19683,7 +19683,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19695,7 +19695,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19743,7 +19743,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20286,7 +20286,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "96bc12c8-53cc-49aa-8e4d-acf8a724eb97")
@@ -20321,7 +20321,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20334,7 +20334,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20373,7 +20373,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20386,7 +20386,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
